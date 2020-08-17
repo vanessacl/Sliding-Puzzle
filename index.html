@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sliding Puzzle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Sliding Puzzle</h1>
+    <div class="subContainer">
+
+      <div class="puzzle">
+        <div id="table"  class="table">
+          <div id="row1" class="row1">
+             <div id="cell11" class="p1" onClick="clickPiece(1,1);"></div>
+             <div id="cell12" class="p2" onClick="clickPiece(1,2);"></div>
+             <div id="cell13" class="p3" onClick="clickPiece(1,3);"></div>
+          </div>
+          <div id="row2" class="row2">
+             <div id="cell21" class="p4" onClick="clickPiece(2,1);"></div>
+             <div id="cell22" class="p5" onClick="clickPiece(2,2);"></div>
+             <div id="cell23" class="p6" onClick="clickPiece(2,3);"></div>
+          </div>
+          <div id="row3" class="row3">
+             <div id="cell31" class="p7" onClick="clickPiece(3,1);"></div>
+             <div id="cell32" class="p8" onClick="clickPiece(3,2);"></div>
+             <div id="cell33" class="p9" onClick="clickPiece(3,3);"></div>
+          </div>
+       </div>
+       <button class="btnNewGame" onClick="mixPieces()">New Game</button>        
+      </div>
+
+      <div class="original">
+        <h3>Original Image</h3>
+        <div class="originalPic"></div>
+      </div>
+
+    </div> 
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

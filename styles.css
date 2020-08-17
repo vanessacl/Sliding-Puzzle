@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Roboto&display=swap');
+
+:root {
+  --dark-gray: #434343;
+  --black: #000;
+  --white: #fff;
+  --light-gray: #bdc3C7;
+  --light-green: #0c3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #ffffff, #fcfcfd, #f8f9fa, #f5f6f8, #f1f3f6, #dee0e3, #cbcdd1, #b8bbbf, #92959a, #6e7176, #4c4f55, #2d2f35);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 30px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 4.2em;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align:center; 
+  color: var(--white);
+  text-shadow: 2px 2px 4px var(--black);
+  margin: 40px 0;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
+  min-width: 80vw;
+  margin: 30px 0 50px;
+}
+
+.puzzle {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 200px 25px 25px 25px;
+}
+
+.table {
+  display: table;
+	width: 550px;
+	height: 550px;
+  margin: auto;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: table-row;
+}
+
+.p1, 
+.p2, 
+.p3, 
+.p4, 
+.p5, 
+.p6, 
+.p7, 
+.p8, 
+.p9 {
+  display: table-cell;
+  width: 120px;
+  height: 120px;
+  border: .5px solid white; 
+  background-size: cover;
+  cursor: pointer;
+}
+
+.p1 {
+  background-image: url(./images/piece1.jpg);
+}
+
+.p2 {
+  background-image: url(./images/piece2.jpg);
+}
+
+.p3 {
+  background-image: url(./images/piece3.jpg);
+}
+
+.p4 {
+  background-image: url(./images/piece4.jpg);
+}
+
+.p5 {
+  background-image: url(./images/piece5.jpg);
+}
+
+.p6 {
+  background-image: url(./images/piece6.jpg);
+}
+
+.p7 {
+  background-image: url(./images/piece7.jpg);
+}
+
+.p8 {
+  background-image: url(./images/piece8.jpg);
+}
+
+.p9 {
+  background: var(--white); 
+}
+
+.btnNewGame {
+  width: 180px;
+  background: var(--light-green);
+  color: var(--white);
+  font-size: 1.4em;
+  text-align: center;
+  padding: 16px 20px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  outline: none;  
+}
+
+.btnNewGame:hover {
+  font-size: 1.5em;
+  margin-top: 38px;
+} 
+
+.original {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.original h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.1em;
+  text-align: center;
+  color: var(--white);
+  text-shadow: 2px 2px 4px var(--black);
+  margin-top: 13px;
+  margin-bottom: 60px;
+  padding-bottom: 15px;
+}
+
+.originalPic {
+  background-image: url(./images/original.jpg);
+  background-size: cover;
+  width: 550px;
+  height: 550px;
+  margin-top: -50px;
+}
+
+
+
