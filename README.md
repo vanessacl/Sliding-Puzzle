@@ -6,6 +6,6 @@ Rearrange the initial configuration of the tiles to match the original image.
 ### Technologies:
 Javascript, HTML and CSS.
 
-#### Check this App: https://movie-search-app-vc.netlify.app/
+#### Check this App: https://sliding-puzzle-js.netlify.app/
 
-<img src="imgage/screenshot.png" width= "450">
+<img src="images/screenshot.png" width= "450">
