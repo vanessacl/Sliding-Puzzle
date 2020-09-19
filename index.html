@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <title>Sliding Puzzle</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,6 +12,7 @@
     <div class="subContainer">
 
       <div class="puzzle">
+        <div class="subPuzzle">
         <div id="table"  class="table">
           <div id="row1" class="row1">
              <div id="cell11" class="p1" onClick="clickPiece(1,1);"></div>
@@ -29,12 +30,13 @@
              <div id="cell33" class="p9" onClick="clickPiece(3,3);"></div>
           </div>
        </div>
+      </div>
        <button class="btnNewGame" onClick="mixPieces()">New Game</button>        
       </div>
 
       <div class="original">
         <h3>Original Image</h3>
-        <div class="originalPic"></div>
+        <img src="./images/original.jpg" class="originalPic" width="500" height="500">
       </div>
 
     </div> 
