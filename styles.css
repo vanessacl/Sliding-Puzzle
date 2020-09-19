@@ -12,10 +12,15 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   padding: 0;
   margin: 0;
   background-image: linear-gradient(to top, #ffffff, #fcfcfd, #f8f9fa, #f5f6f8, #f1f3f6, #dee0e3, #cbcdd1, #b8bbbf, #92959a, #6e7176, #4c4f55, #2d2f35);
+  overflow-x: hidden;
 }
 
 .container{
